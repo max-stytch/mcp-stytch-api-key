@@ -78,7 +78,7 @@ export const APIKeyForm = withLoginRequired(() => {
                 </p>
                 <p>
                     To interact with the MCP server, connect your MCP client to:{' '}
-                    <b>{window.location.origin}/sse</b>
+                    <b>{window.location.origin}/mcp</b>
                 </p>
                 <p>
                     User and MCP Client Authentication is handled through{' '}
